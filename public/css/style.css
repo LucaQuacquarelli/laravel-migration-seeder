@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.travel-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 25px;
+}
+
+.travel-card {
+    width: calc(100% / 4 - 20px);
+    margin: 10px;
+    padding: 10px;
+    background-color: royalblue;
+    color: white;
+}
+
+.travel-card * {
+    margin: 15px 0;
+}
+
+li {
+    font-size: 12px;
+}
